@@ -68,6 +68,7 @@ def lambda_handler(event, context):
         print ("Error -"+str(err))
         return err
 ```
+Als `<target-bucket>` muss hier noch der entsprechende Name des Zielbuckets eingegeben werden.
 
 Anschließend kann die Funktion deployed werden. Wird nun in das Ablagebucket eine Datei hochgeladen so wird sie mit dem angepassten ContentType in das Zielbucket kopiert und im Anschluss aus dem Ablagebucket gelöscht.
 
