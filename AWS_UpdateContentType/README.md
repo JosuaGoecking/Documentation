@@ -23,7 +23,7 @@ Als Berechtigung muss voller S3 Zugriff gewährleistet werden. In der IAM Manage
 3. Bei Laufzeit Python 3.9 als Programmiersprache wählen
 4. Bei Berechtigungen zuvor erstellte Rolle verwenden (Menü aufklappen und wie unten Eingaben wählen):
     
-    ![lambda_function.png](AWS_Lambda_updateContentType/lambda_function.png)
+    ![lambda_function](lambda_function.png)
     
     Haken bei 'Verwenden einer vorhandenen Rolle' setzen und unten zuvor erstellte Rolle auswählen.
     
@@ -33,7 +33,7 @@ Als Berechtigung muss voller S3 Zugriff gewährleistet werden. In der IAM Manage
 
 Als Auslöser wird jede Form der Objekterstellung in dem S3 Ablagebucket gewählt. Optional kann man einzelne Ordner spezifizieren.
 
-![trigger.png](AWS_Lambda_updateContentType/trigger.png)
+![trigger](trigger.png)
 
 Zunächst nach S3 suchen und wählen (ganz oben), dann öffnet sich unteres Menü. Dort muss das Ablagebucket ausgewählt werden und als Ereignistyp werden alle Objekterstellungsereignisse ausgewählt. Den Haken bei rekursivem Aufruf setzen und die den Trigger erstellen.
 
